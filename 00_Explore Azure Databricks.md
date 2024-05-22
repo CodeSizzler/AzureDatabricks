@@ -20,7 +20,6 @@ This exercise includes a script to provision a new Azure Databricks workspace. T
 1. In a web browser, sign into the [Azure portal](https://portal.azure.com) at `https://portal.azure.com`.
 2. Use the **[\>_]** button to the right of the search bar at the top of the page to create a new Cloud Shell in the Azure portal, selecting a ***PowerShell*** environment and creating storage if prompted. The cloud shell provides a command line interface in a pane at the bottom of the Azure portal, as shown here:
 
-    ![Azure portal with a cloud shell pane](./images/cloud-shell.png)
 
     > **Note**: If you have previously created a cloud shell that uses a *Bash* environment, use the the drop-down menu at the top left of the cloud shell pane to change it to ***PowerShell***.
 
@@ -94,7 +93,6 @@ As in many Spark environments, Databricks supports the use of notebooks to combi
 
     Save the visualization and observe that it is displayed in the notebook, like this:
 
-    ![A bar chart showing product counts by category](./images/databricks-chart.png)
 
 ## Analyze data with a dataframe
 
